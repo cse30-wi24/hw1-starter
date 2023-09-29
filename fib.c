@@ -1,6 +1,6 @@
 /**
  * This file contains the implementation of a function that evaluates and
- * returns the nth term of the fibonaci sequence
+ * returns the nth term of the fibonacci sequence
  */
 
 #include <stdio.h>  // allows us to use printf(...)
