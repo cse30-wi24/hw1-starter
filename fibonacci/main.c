@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include "fib.h"
 
+// function declaration
+int read_int(char *arg);
+
 int main(int argc, char **argv) {
     // checking the number of arguments
     if (argc != 2) {
