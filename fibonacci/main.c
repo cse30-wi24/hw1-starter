@@ -17,11 +17,11 @@ int main(int argc, char **argv) {
     if (n < 0) {
         return EXIT_FAILURE;
     }
-    printf("n=%d\n", n);
+    printf("n = %d\n", n);
 
     // call your implementation of get_nth_fib & print the result
     int nth_fib = 0; // TODO: fix me!
-    printf("The %dth fibonacci number is %d\n", n, nth_fib);
+    printf("The nth fibonacci number for n = %d is %d\n", n, nth_fib);
 
     return EXIT_SUCCESS;
 }
