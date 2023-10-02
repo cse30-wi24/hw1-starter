@@ -21,7 +21,7 @@ int main(int argc, char **argv) {
 
     // call your implementation of get_nth_fib & print the result
     int nth_fib = 0; // TODO: fix me!
-    printf("The nth fibonacci number is %d\n", nth_fib);
+    printf("The %dth fibonacci number is %d\n", n, nth_fib);
 
     return EXIT_SUCCESS;
 }
